@@ -1,6 +1,6 @@
 export const apiUrl =
   process.env.NODE_ENV !== "production"
-    ? "https://react-nodejs-server-quangit93.vercel.app"
+    ? "https://react-nodejs-server-quangit93.vercel.app/api"
     : "http://localhost:5000/api";
 
 export const LOCAL_STORAGE_TOKEN_NAME = "learnit-mern";
