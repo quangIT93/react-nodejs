@@ -1,7 +1,7 @@
 export const apiUrl =
   process.env.NODE_ENV !== "production"
-    ? "http://localhost:5000/api"
-    : "https://react-nodejs-ruddy.vercel.app/";
+    ? "https://react-nodejs-ruddy.vercel.app/"
+    : "http://localhost:5000/api";
 
 export const LOCAL_STORAGE_TOKEN_NAME = "learnit-mern";
 
